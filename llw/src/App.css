@@ -165,11 +165,11 @@ input, label{
 .menu-container{
   margin: 110px auto;
   padding: 10px 13%;
-  color:#a9c8be
+  background-color: #a7b0ad;
 }
 
 .menu-container h2{
-  color: #000;
+  color: white;
 }
 
 .menu-header{
