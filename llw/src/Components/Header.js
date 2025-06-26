@@ -1,13 +1,8 @@
 import React from 'react';
-
-
-
-
 import BannerLogo from '../images/restauranfood.jpg';
 
-const Header = () => {
 
-    
+const Header = () => {
     return (
         <header className="header">
             <section>
@@ -18,7 +13,6 @@ const Header = () => {
                     traditional recipes served with a modern twist.</p>
               </div>
               <a href="/Reservations"><button aria-label='On Click'>Reserve a Table</button></a>
-              
 
               <div className='banner-img'>
                 <img src = {BannerLogo} alt='bannerlogo'/>

@@ -4,6 +4,10 @@ import recipes from "../Recipes";
 
 
 const Main = () => {
+
+    const handleOrder = (id) => {
+    console.log(id);
+    }
     return (
         <div className="menu-container">
            <div className="menu-header">
@@ -21,7 +25,7 @@ const Main = () => {
                       <p>${recipe.price}</p>
                     </div>
                     <p>{recipe.description}</p>
-                    <button className="orderbtn" onClick={() => (recipe.id)}>Order Now</button>
+                    <button className="orderbtn" On Click={() => handleOrder(recipe.id)}>Order Now</button>
                   </div>
                 </div>
               ))}
